@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MOYFClient"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\MOYFNetworking\;CMake Files\MOYFClient\;CMake Files\MOYFServer\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/ozzadar/source/MUDonYourFace/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\ozzadar\source\MUDonYourFace\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\ozzadar\source\MUDonYourFace\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\ozzadar\source\MUDonYourFace\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\ozzadar\source\MUDonYourFace\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/ozzadar/source/MUDonYourFace/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\ozzadar\source\MUDonYourFace\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\ozzadar\source\MUDonYourFace\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\ozzadar\source\MUDonYourFace\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\ozzadar\source\MUDonYourFace\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/ozzadar/source/MUDonYourFace/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\ozzadar\source\MUDonYourFace\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\ozzadar\source\MUDonYourFace\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\ozzadar\source\MUDonYourFace\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\ozzadar\source\MUDonYourFace\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MOYFNetworking">
+				<Option output="C:/Users/ozzadar/source/MUDonYourFace/cmake-build-debug/MOYFNetworking/MOYFNetworking.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ozzadar/source/MUDonYourFace/cmake-build-debug/MOYFNetworking"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/ozzadar/source/MUDonYourFace/MOYFNetworking/include"/>
+					<Add directory="C:/Users/ozzadar/source/libraries/boost_1_77_0"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\ozzadar\source\MUDonYourFace\cmake-build-debug\MOYFNetworking\Makefile VERBOSE=1 MOYFNetworking"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\ozzadar\source\MUDonYourFace\cmake-build-debug\MOYFNetworking\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\ozzadar\source\MUDonYourFace\cmake-build-debug\MOYFNetworking\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\ozzadar\source\MUDonYourFace\cmake-build-debug\MOYFNetworking\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MOYFNetworking/fast">
+				<Option output="C:/Users/ozzadar/source/MUDonYourFace/cmake-build-debug/MOYFNetworking/MOYFNetworking.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ozzadar/source/MUDonYourFace/cmake-build-debug/MOYFNetworking"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/ozzadar/source/MUDonYourFace/MOYFNetworking/include"/>
+					<Add directory="C:/Users/ozzadar/source/libraries/boost_1_77_0"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\ozzadar\source\MUDonYourFace\cmake-build-debug\MOYFNetworking\Makefile VERBOSE=1 MOYFNetworking/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\ozzadar\source\MUDonYourFace\cmake-build-debug\MOYFNetworking\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\ozzadar\source\MUDonYourFace\cmake-build-debug\MOYFNetworking\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\ozzadar\source\MUDonYourFace\cmake-build-debug\MOYFNetworking\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MOYFClient">
+				<Option output="C:/Users/ozzadar/source/MUDonYourFace/cmake-build-debug/MOYFClient/MOYFClient.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/ozzadar/source/MUDonYourFace/MOYFClient/MOYFNetworking"/>
+					<Add directory="C:/Users/ozzadar/source/MUDonYourFace/MOYFNetworking/include"/>
+					<Add directory="C:/Users/ozzadar/source/libraries/boost_1_77_0"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\ozzadar\source\MUDonYourFace\cmake-build-debug\MOYFClient\Makefile VERBOSE=1 MOYFClient"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\ozzadar\source\MUDonYourFace\cmake-build-debug\MOYFClient\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\ozzadar\source\MUDonYourFace\cmake-build-debug\MOYFClient\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\ozzadar\source\MUDonYourFace\cmake-build-debug\MOYFClient\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MOYFClient/fast">
+				<Option output="C:/Users/ozzadar/source/MUDonYourFace/cmake-build-debug/MOYFClient/MOYFClient.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/ozzadar/source/MUDonYourFace/MOYFClient/MOYFNetworking"/>
+					<Add directory="C:/Users/ozzadar/source/MUDonYourFace/MOYFNetworking/include"/>
+					<Add directory="C:/Users/ozzadar/source/libraries/boost_1_77_0"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\ozzadar\source\MUDonYourFace\cmake-build-debug\MOYFClient\Makefile VERBOSE=1 MOYFClient/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\ozzadar\source\MUDonYourFace\cmake-build-debug\MOYFClient\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\ozzadar\source\MUDonYourFace\cmake-build-debug\MOYFClient\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\ozzadar\source\MUDonYourFace\cmake-build-debug\MOYFClient\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MOYFServer">
+				<Option output="C:/Users/ozzadar/source/MUDonYourFace/cmake-build-debug/MOYFServer/MOYFServer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/ozzadar/source/MUDonYourFace/MOYFServer/MOYFNetworking"/>
+					<Add directory="C:/Users/ozzadar/source/MUDonYourFace/MOYFNetworking/include"/>
+					<Add directory="C:/Users/ozzadar/source/libraries/boost_1_77_0"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\ozzadar\source\MUDonYourFace\cmake-build-debug\MOYFServer\Makefile VERBOSE=1 MOYFServer"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\ozzadar\source\MUDonYourFace\cmake-build-debug\MOYFServer\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\ozzadar\source\MUDonYourFace\cmake-build-debug\MOYFServer\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\ozzadar\source\MUDonYourFace\cmake-build-debug\MOYFServer\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MOYFServer/fast">
+				<Option output="C:/Users/ozzadar/source/MUDonYourFace/cmake-build-debug/MOYFServer/MOYFServer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/ozzadar/source/MUDonYourFace/MOYFServer/MOYFNetworking"/>
+					<Add directory="C:/Users/ozzadar/source/MUDonYourFace/MOYFNetworking/include"/>
+					<Add directory="C:/Users/ozzadar/source/libraries/boost_1_77_0"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\ozzadar\source\MUDonYourFace\cmake-build-debug\MOYFServer\Makefile VERBOSE=1 MOYFServer/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\ozzadar\source\MUDonYourFace\cmake-build-debug\MOYFServer\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\ozzadar\source\MUDonYourFace\cmake-build-debug\MOYFServer\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\ozzadar\source\MUDonYourFace\cmake-build-debug\MOYFServer\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/ozzadar/source/MUDonYourFace/MOYFClient/main.cpp">
+			<Option target="MOYFClient"/>
+		</Unit>
+		<Unit filename="C:/Users/ozzadar/source/MUDonYourFace/MOYFNetworking/src/tcp_connection.cpp">
+			<Option target="MOYFNetworking"/>
+		</Unit>
+		<Unit filename="C:/Users/ozzadar/source/MUDonYourFace/MOYFNetworking/src/tcp_server.cpp">
+			<Option target="MOYFNetworking"/>
+		</Unit>
+		<Unit filename="C:/Users/ozzadar/source/MUDonYourFace/MOYFServer/main.cpp">
+			<Option target="MOYFServer"/>
+		</Unit>
+		<Unit filename="C:/Users/ozzadar/source/MUDonYourFace/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/ozzadar/source/MUDonYourFace/MOYFNetworking/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\MOYFNetworking\"/>
+		</Unit>
+		<Unit filename="C:/Users/ozzadar/source/MUDonYourFace/MOYFClient/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\MOYFClient\"/>
+		</Unit>
+		<Unit filename="C:/Users/ozzadar/source/MUDonYourFace/MOYFServer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\MOYFServer\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
